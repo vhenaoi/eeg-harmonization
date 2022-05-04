@@ -8,7 +8,10 @@ from bids import BIDSLayout
 from datetime import datetime
 import numpy as np
 import pandas as pd
-from datasets import CHBMP as THE_DATASET
+from datasets import BIOMARCADORES as THE_DATASET
+#from datasets import CHBMP as THE_DATASET
+#from datasets import LEMON as THE_DATASET
+#from datasets import SRM as THE_DATASET
 
 # Dataset dependent inputs
 input_path = THE_DATASET.get('input_path',None)
